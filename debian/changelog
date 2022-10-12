@@ -1,0 +1,35 @@
+libtie-simple-perl (1.04-1) unstable; urgency=low
+
+  * Team upload.
+
+  [ Salvatore Bonaccorso ]
+  * Change Vcs-Git to canonical URI (git://anonscm.debian.org)
+  * Change search.cpan.org based URIs to metacpan.org based URIs
+
+  [ Axel Beckert ]
+  * debian/copyright: migrate pre-1.0 format to 1.0 using "cme fix dpkg-
+    copyright"
+
+  [ gregor herrmann ]
+  * Strip trailing slash from metacpan URLs.
+
+  [ Salvatore Bonaccorso ]
+  * Update Vcs-Browser URL to cgit web frontend
+
+  [ gregor herrmann ]
+  * New upstream release 1.04.
+  * Add debian/upstream/metadata.
+  * Don't install almost empty README anymore.
+  * Update upstream copyright information.
+  * debian/rules: don't install manpage stubs for sub-modules.
+  * Mark package as autopkgtest-able.
+  * Declare compliance with Debian Policy 3.9.6.
+  * Bump debhelper compatibility level to 9.
+
+ -- gregor herrmann <gregoa@debian.org>  Sun, 29 Nov 2015 14:30:43 +0100
+
+libtie-simple-perl (1.03-1) unstable; urgency=low
+
+  * Initial Release. (Closes: 642244)
+
+ -- Dominique Dumont <dod@debian.org>  Wed, 21 Sep 2011 13:45:09 +0200
